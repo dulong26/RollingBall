@@ -12,6 +12,7 @@
 		B626E0C91ECD3D880024FC6B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B626E0C71ECD3D880024FC6B /* Main.storyboard */; };
 		B626E0CB1ECD3D880024FC6B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B626E0CA1ECD3D880024FC6B /* Assets.xcassets */; };
 		B626E0CE1ECD3D880024FC6B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B626E0CC1ECD3D880024FC6B /* LaunchScreen.storyboard */; };
+		B6D8472F1ECD585800C0E219 /* ball.png in Resources */ = {isa = PBXBuildFile; fileRef = B6D8472E1ECD585800C0E219 /* ball.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		B626E0CA1ECD3D880024FC6B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B626E0CD1ECD3D880024FC6B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B626E0CF1ECD3D880024FC6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6D8472E1ECD585800C0E219 /* ball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ball.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		B626E0C21ECD3D870024FC6B /* RunningBall */ = {
 			isa = PBXGroup;
 			children = (
+				B6D8472D1ECD582000C0E219 /* Resources */,
 				B626E0C31ECD3D880024FC6B /* AppDelegate.swift */,
 				B626E0C51ECD3D880024FC6B /* ViewController.swift */,
 				B626E0C71ECD3D880024FC6B /* Main.storyboard */,
@@ -62,6 +65,14 @@
 				B626E0CF1ECD3D880024FC6B /* Info.plist */,
 			);
 			path = RunningBall;
+			sourceTree = "<group>";
+		};
+		B6D8472D1ECD582000C0E219 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B6D8472E1ECD585800C0E219 /* ball.png */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +136,7 @@
 			files = (
 				B626E0CE1ECD3D880024FC6B /* LaunchScreen.storyboard in Resources */,
 				B626E0CB1ECD3D880024FC6B /* Assets.xcassets in Resources */,
+				B6D8472F1ECD585800C0E219 /* ball.png in Resources */,
 				B626E0C91ECD3D880024FC6B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -299,6 +311,7 @@
 				B626E0D41ECD3D880024FC6B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
